@@ -1,0 +1,4 @@
+sudo zypper ar --refresh --priority 90 http://packman.inode.at/suse/openSUSE_Leap_15.0 packman
+sudo zypper mr --priority 90 packman
+sudo zypper in obs-v4l2sink
+sudo zypper in obs-studio
